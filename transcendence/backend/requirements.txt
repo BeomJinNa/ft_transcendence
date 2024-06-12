@@ -1,0 +1,13 @@
+# 이 파일은 백엔드 서비스에 필요한 Python 패키지와 해당 버전을 정의합니다.
+
+# Django 프레임워크를 3.0 이상, 4.0 미만 버전으로 설치합니다.
+Django>=3.0,<4.0
+
+# Django REST framework를 설치합니다. 이 패키지는 Django 기반의 RESTful API를 구축하는 데 사용됩니다.
+djangorestframework
+
+# PostgreSQL 데이터베이스와 Django를 연결하기 위해 psycopg2 바이너리 패키지를 설치합니다.
+psycopg2-binary
+
+# Django에서 CORS(Cross-Origin Resource Sharing) 요청을 처리하기 위해 django-cors-headers 패키지를 설치합니다.
+django-cors-headers
